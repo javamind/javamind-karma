@@ -1,0 +1,14 @@
+{
+  "name": "javamind-karma",
+  "version": "0.0.1",
+  "description": "Javamind tests en Javascript",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "karma": "~0.12.23",
+    "karma-chrome-launcher": "~0.1.4",
+    "karma-jasmine": "~0.3.0",
+    "karma-notify-reporter": "^0.1.1"
+  },
+  "author": "Guillaume EHRET"
+}
