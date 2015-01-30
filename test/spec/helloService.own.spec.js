@@ -2,7 +2,7 @@
 
 
 function helloServiceShouldAskWhoAreYou(){
-    var label = " HelloService ask 'who are you?' when no name is sent to the function\n";
+    var label = " HelloService ask 'who are you?' when no name is sent to the function<br>";
     var result = "KO";
     if(helloService()==='Who are you ?'){
         result = "OK";
@@ -11,7 +11,7 @@ function helloServiceShouldAskWhoAreYou(){
 }
 
 function helloServiceShouldSayHelloGuillaume(){
-    var label = " HelloService ask 'Hello Guillaume' when i call function with Guillaume\n";
+    var label = " HelloService ask 'Hello Guillaume' when i call function with Guillaume<br>  ";
     var result = "KO";
     if(helloService('Guillaume')==='Hello Guillaume'){
         result = "OK";
